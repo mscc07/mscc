@@ -1,0 +1,16 @@
+***startSetup***
+model,HB
+nSite,18
+subSpace,2000
+nStates,10
+Ms,1,0
+s2Target,0
+maxItr,50
+startSpinTargetItr,5
+energyTola, 0.02
+spinTola,0.1
+jValue,1
+beta,38.61
+bondOrder,bondOrder-pah18.dat
+restart,False
+***endSetup***

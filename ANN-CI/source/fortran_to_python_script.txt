@@ -1,0 +1,2 @@
+f2py3 -L/usr/lib. -llapack -c fortran_input.f -m f_out_for_so
+
