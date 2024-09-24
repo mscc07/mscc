@@ -1,0 +1,4 @@
+UnitsOutput = eV_angstrom
+PropagationSpectrumEnergyStep = 0.01*eV
+PropagationSpectrumMaxEnergy = 6.0*eV
+PropagationSpectrumMinEnergy = 0.0*eV

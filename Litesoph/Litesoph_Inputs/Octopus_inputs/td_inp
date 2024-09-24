@@ -1,0 +1,22 @@
+FromScratch = yes
+CalculationMode = td
+XYZCoordinates = "../coordinate.xyz"
+UnitsOutput = ev_angstrom
+ExperimentalFeatures = no
+Spacing = 0.25*angstrom
+BoxShape = minimum
+Radius = 5.0*angstrom
+SpinComponents = unpolarized
+ExtraStates = 10
+XCFunctional = gga_x_pbe + gga_c_pbe
+PseudopotentialSet = pseudodojo_pbe
+TDPropagator = aetrs
+TDMaxSteps = 10000.0
+TDTimeStep = 0.041
+TDDeltaStrength = 1e-05
+TDPolarizationDirection = 1
+TDOutputComputeInterval = 1
+%TDOutput
+ multipoles
+ energy
+%

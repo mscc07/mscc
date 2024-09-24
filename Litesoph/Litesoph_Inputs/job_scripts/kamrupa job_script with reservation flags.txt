@@ -1,0 +1,16 @@
+
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=10
+#SBATCH --time=00:10:00
+#SBATCH --job-name=nwchem
+#SBATCH --error=job.%J.err
+#SBATCH --output=job.%J.out
+#SBATCH --partition=standard
+#SBATCH --reservation=mscc_workshop
+
+ml MSCC/litesoph
+
+export PYTHONPATH=$PYTHONPATH:/home/apps/MSCC/lite/litesoph/lib/python3.10/site-packages
+
+
