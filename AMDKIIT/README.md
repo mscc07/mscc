@@ -47,7 +47,14 @@ squeue --me
 ssh <node-name>
 
 ```
-![salloc](https://github.com/user-attachments/assets/c4982c71-6ed3-4f35-b2d5-37e8aa325cb7)
+![1](https://github.com/user-attachments/assets/5b2a1c1a-0964-4cd9-87cc-dca4117143ea)
+
+![1](https://github.com/user-attachments/assets/fe6689d0-c135-4c09-86ff-1165c8d70d58)
+
+![1](https://github.com/user-attachments/assets/6147ba17-86a5-429b-9d11-a73017750cfb)
+
+![1](https://github.com/user-attachments/assets/2ca9091a-c5c4-4ede-abb8-cf117e2461b4)
+
 
 - After logging into the node, you need to load the AMDKIIT application module by using the following commands
 ```bash
