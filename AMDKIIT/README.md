@@ -47,7 +47,8 @@ squeue --me
 ssh <node-name>
 
 ```
-![1](https://github.com/user-attachments/assets/dc7ddaf2-ef67-4e0b-9a86-348410bf1098)
+![1](https://github.com/user-attachments/assets/f6fe8bc7-af14-4fba-a63d-814bc52088f2)
+
 - After logging into the node, you need to load the AMDKIIT application module by using the following commands
 ```bash
 # Command 4: List all MSCC applications
