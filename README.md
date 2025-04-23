@@ -54,7 +54,7 @@ ssh <node-name>
 # Command 4: List all MSCC applications
 module avail | grep -i mscc
 
-# Command 5: Load the ANN-CI application
+# Command 5: Load the AMDKIIT application
 module load MSCC/amdkiit
 
 # Command 6: Check the loaded modules
