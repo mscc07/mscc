@@ -18,8 +18,7 @@ ssh -p 4422 username@hostname
 
 ##  Step 2: Prepare input and bond Order files
 To run a job using **AMDKIIT**, the user must provide the following three types of input files:
-
-### Input Coordinate File
+**Input Coordinate File**
 ### Pseudopotential Files
 ### YAML Input File
 
