@@ -121,7 +121,7 @@ MD_TRAJECTORY.xyz # Records the system geometry (in Å) at each MD step in XYZ f
 ![output files](https://github.com/user-attachments/assets/17d9ee71-dbcd-4023-b4b9-251bf66585f8)
 
 ## Video Tutotial
-- Please refer to the tutorial video for more detailed running instructions: https://youtu.be/R2KRXly2RBo?si=Wd9UUfS0lKd2Ayfy
+- Please refer to the tutorial video for more detailed running instructions: https://www.youtube.com/watch?v=x69wl20Hq5M&t=2273s 
 ---
 
 
