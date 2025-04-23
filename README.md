@@ -95,7 +95,8 @@ sbatch job.sh   # Submit the batch job to the scheduler
 ![sbatch job sh](https://github.com/user-attachments/assets/6e1a50e3-64d6-4816-b042-fb2a06b195c4)
 
 ## Step 4: Output Files
-
+After successful execution, output files are generated. The general out file **amdkiit.out** contains all the information of the job being performed. Apart from that, different 
+calculations AMDKIIT generates different output files for different type of calculations as mentioned here.
 After successful execution, 10 output files are generated. The key files include:
 
 ```
