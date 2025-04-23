@@ -70,9 +70,9 @@ mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out
 ![running the application](https://github.com/user-attachments/assets/9a37669c-4eb3-4067-a080-f1886e5dddac)
 
 ### B) Non-Interactive Mode
-You can also run the application using the job submission script.
-- Create a file named _job.sh_ with the following content:
-This is a script used to submit a job to a computing cluster. It automates the job setup, runs your application, and handles input/output.
+You can also run the application using a job submission script.
+- Create a file named `_job.sh_` with the following content:
+This script is used to submit a job to a computing cluster. It automates the setup process, executes your application, and manages input/output efficiently.
 
 ```bash
 #!/bin/bash
@@ -91,7 +91,7 @@ mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out            # Run the AMDKI
 
 ```bash
 sbatch job.sh   # Submit the batch job to the scheduler
-```bash
+```
 ![sbatch job sh](https://github.com/user-attachments/assets/6e1a50e3-64d6-4816-b042-fb2a06b195c4)
 
 ## Step 4: Output Files
