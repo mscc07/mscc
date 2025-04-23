@@ -64,7 +64,7 @@ module list
 
 
 - Running the Application
-Once the module is loaded, run the application using the following command:
+Once the module is loaded, you can run the application using the following command:
 ```bash
 mpirun -n <N_core> <path_to_executable>/amdkiit.x input.yaml > amdkiit.out
 exe.py <your_input_file>                      # Replace <your_input_file> with the actual file name
