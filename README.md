@@ -97,26 +97,27 @@ sbatch job.sh   # Submit the batch job to the scheduler
 ## Step 4: Output Files
 After successful execution, output files are generated. The general out file **amdkiit.out** contains all the information of the job being performed. Apart from that, different 
 calculations AMDKIIT generates different output files for different type of calculations as mentioned here.
-After successful execution, 10 output files are generated. The key files include:
+
+Depending on the type of calculation performed, the following output files will be generated:
+
+### 4.1 Wavefunction Optimization
 
 ```
-1)  input_file.in.out                        # Main output file containing information on subspace size and calculated energy.
-2)  input_file.in.out.basis                  # Configurations of final sub-Hilbert space
-3)  input_file.in.out.ci                     # CI coefficient corresponding to configurations
-4)  input_file.in.out.model.pth              # Final optimized ANN model
-5)  input_file.in.out.error.dat              # Training and testing errors at each Active Learning iteration.
-6)  input_file.in.out.TrainData_subSpace.csv #Training dataset generated during the calculation.
+SP_ENERGY.dat    #Contains Kohn-Sham (KS) energy (in Hartree) at each SCF step.  
 ```
-These files are essential for analyzing the system and model performance. In addition, there are four more files, the following are scratch files created during the computation process:
-```
-7)  input_file.in.out.predictData.csv
-8)  input_file.in.out.accVsPreTest.dat
-9)  input_file.in.out.accVsPreTrain.dat
-10) input_file.in.out.enrich.csv
-```
-It is recommended to delete these files to keep the directory clean.
+### 4.2 Geometry Optimization
 
-## Screentshot of the output files
+```
+atom_coord.xyz    # Appends all ionic coordinates (in Å) during the optimization process in XYZ format.  
+atom_force.dat    # Stores atomic forces (in XYZ format) computed during geometry optimization.  
+```
+
+### 4.3 Molecular Dynamics
+```
+MD_ENERGY.dat     # Logs instantaneous temperature (K), KS energy (Hartree), total energy (Hartree), and CPU time (seconds) at every MD step.
+MD_TRAJECTORY.xyz # Records the system geometry (in Å) at each MD step in XYZ format (append mode).  
+```
+## Screentshot of the output files for wavefunction optimization
 ![output files](https://github.com/user-attachments/assets/17d9ee71-dbcd-4023-b4b9-251bf66585f8)
 
 ## Video Tutotial
