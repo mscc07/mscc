@@ -49,13 +49,13 @@ ssh <node-name>
 ```
 ![salloc](https://github.com/user-attachments/assets/c4982c71-6ed3-4f35-b2d5-37e8aa325cb7)
 
-- After logging into the node, you need to load the ANN-CI application module by using the following commands
+- After logging into the node, you need to load the AMDKIIT application module by using the following commands
 ```bash
 # Command 4: List all MSCC applications
 module avail | grep -i mscc
 
 # Command 5: Load the ANN-CI application
-module load MSCC/ann-ci
+module load MSCC/amdkiit
 
 # Command 6: Check the loaded modules
 module list
