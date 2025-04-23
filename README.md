@@ -22,7 +22,7 @@ To run a job using **AMDKIIT**, the user must provide the following three types 
 - **Pseudopotential Files**
 - **YAML Input File**
 
-- Download the sample input files (Eg. 10site_pah_S.in & bondOrder-pah10.dat) available in https://github.com/rahul-dethe/running_instructions/tree/master/ann_wk2/inputs
+- Download the sample input files available in https://github.com/mscc07/mscc/tree/main/AMDKIIT/Test_Inputs
 
 OR
 
