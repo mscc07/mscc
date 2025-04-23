@@ -63,7 +63,7 @@ module list
 ![module list](https://github.com/user-attachments/assets/37181545-902c-46c0-af11-9a6f9078d809)
 
 
-- Once the module is loaded, you can run the application using the following command:
+- Once the module is loaded, navigate to the directory containing the input files and run the application using the following command:
 ```bash
 mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out                                
 ```
