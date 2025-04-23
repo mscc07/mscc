@@ -47,6 +47,8 @@ squeue --me
 ssh <node-name>
 
 ```
+![1](https://github.com/user-attachments/assets/8cbe7a25-282f-49a0-b15a-e037f341cef7)
+
 ![1](https://github.com/user-attachments/assets/5b2a1c1a-0964-4cd9-87cc-dca4117143ea)
 
 ![1](https://github.com/user-attachments/assets/fe6689d0-c135-4c09-86ff-1165c8d70d58)
