@@ -83,17 +83,14 @@ This is a script used to submit a job to a computing cluster. It automates the j
 #SBATCH --output=%j.out        # File to save standard output
 #SBATCH --error=%j.err         # File to save error messages
 
-module load MSCC/ann-ci        # Load the ANN-CI module (verify module name if needed)
-cd $SLURM_SUBMIT_DIR           # Navigate to the job submission directory
-exe.py <input_file>            # Run the ANN-CI application (replace <input_file> accordingly)
+module load MSCC/amdkiit                                         # Load the AMDKIIT module (verify module name if needed)
+mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out            # Run the AMDKIIT application 
 ```
 
-- To run the application, submit the above job submission script using the below command 
-Once your _job.sh_ file is ready, run the script using the command below:
+- To run the application, submit the job script using the following command:
 
 ```bash
-sbatch job.sh             # Submit the batch job
-```
+sbatch job.sh   # Submit the batch job to the scheduler
 ![sbatch job sh](https://github.com/user-attachments/assets/6e1a50e3-64d6-4816-b042-fb2a06b195c4)
 
 ## Step 4: Output Files
