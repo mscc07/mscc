@@ -91,6 +91,7 @@ mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out            # Run the AMDKI
 
 ```bash
 sbatch job.sh   # Submit the batch job to the scheduler
+```bash
 ![sbatch job sh](https://github.com/user-attachments/assets/6e1a50e3-64d6-4816-b042-fb2a06b195c4)
 
 ## Step 4: Output Files
