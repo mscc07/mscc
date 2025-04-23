@@ -21,12 +21,12 @@ To run a job using **AMDKIIT**, the user must provide the following three types 
 - **Input Coordinate File**
 - **Pseudopotential Files**
 - **YAML Input File**
-
-- Download the sample input files available in https://github.com/mscc07/mscc/tree/main/AMDKIIT/Test_Inputs
+  
+Download the sample input files available in https://github.com/mscc07/mscc/tree/main/AMDKIIT/Test_Inputs
 
 OR
 
-- Prepare input and bond order files by referring to the detailed instructions in the GitHub repository  https://github.com/dghoshlab/AL-MCCI
+Prepare input files by referring to the detailed instructions in the GitHub repository  https://github.com/mscc07/mscc/blob/main/AMDKIIT/AMDKIIT_Manual_New_v1_0_1.pdf
 
 
 ##  Step 3: Run the application 
