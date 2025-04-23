@@ -63,11 +63,10 @@ module list
 ![module list](https://github.com/user-attachments/assets/37181545-902c-46c0-af11-9a6f9078d809)
 
 
-Make sure to **choose the correct version of ann-ci** from the available modules, if multiple versions are listed.
-
 - Running the Application
 Once the module is loaded, run the application using the following command:
 ```bash
+mpirun -n <N_core> <path_to_executable>/amdkiit.x input.yaml > amdkiit.out
 exe.py <your_input_file>                      # Replace <your_input_file> with the actual file name
 ```
 ![running the application](https://github.com/user-attachments/assets/9a37669c-4eb3-4067-a080-f1886e5dddac)
