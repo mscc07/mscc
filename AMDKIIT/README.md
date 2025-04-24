@@ -16,7 +16,7 @@ ssh -p 4422 username@hostname
 > ⚠️ **Important:** Do not run any MSCC application on login nodes!
 
 
-##  Step 2: Prepare input and bond Order files
+##  Step 2: Prepare input files
 To run a job using **AMDKIIT**, the user must provide the following three types of input files:
 - **Input Coordinate File**
 - **Pseudopotential Files**
