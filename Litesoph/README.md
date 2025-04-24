@@ -36,7 +36,7 @@ module load MSCC/litesoph     # Load the LITESOPH module
 litesoph gui                  # Launch the GUI mode
 ```
 
-![LITESOPH module load and run](attachment:/mnt/data/Screenshot%202025-04-24%20173328.png)
+![LITESOPH module load and run]![Image](https://github.com/user-attachments/assets/61048e65-ea16-4606-968b-2014d33d0fd1)
 
 ## Step 4: Output Files
 
