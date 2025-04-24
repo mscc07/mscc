@@ -15,6 +15,8 @@ ssh -p 4422 username@hostname
 ```
 ![ssh](https://github.com/user-attachments/assets/fadebec6-8d52-4a81-b03e-a40bfaa96378)
 
+
+
 > ⚠️ **Important:** Do not run any MSCC application on login nodes!
 
 
@@ -36,7 +38,11 @@ module load MSCC/litesoph     # Load the LITESOPH module
 litesoph gui                  # Launch the GUI mode
 ```
 
-![LITESOPH module load and run]![Image](https://github.com/user-attachments/assets/61048e65-ea16-4606-968b-2014d33d0fd1)
+![Image](https://github.com/user-attachments/assets/61048e65-ea16-4606-968b-2014d33d0fd1)
+
+Gui appears 
+
+![Image](https://github.com/user-attachments/assets/50a9c41e-4258-4108-b8a3-de9aa909b5ad)
 
 ## Step 4: Output Files
 
