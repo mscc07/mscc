@@ -89,13 +89,13 @@ mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out            # Run the AMDKI
 - To run the application, submit the job script using the following command:
 
 ```bash
-sbatch job.sh   # Submit the batch job to the scheduler
+sbatch submit_p.sh   # Submit the batch job to the scheduler
 ```
 ![7](https://github.com/user-attachments/assets/23537964-c4dd-4cff-b2a6-359022f1d503)
 
 
 ## Step 4: Output Files
-After successful execution, output files are generated. The general out file **amdkiit.out** contains all the information of the job being performed. Apart from that, different 
+After successful execution, output files are generated. The general out file **amdkiit.out** contains all the information of the job being performed. **gmon.out** is a profiling output file. Apart from that, different 
 calculations AMDKIIT generates different output files for different type of calculations as mentioned here.
 
 Depending on the type of calculation performed, the following output files will be generated:
