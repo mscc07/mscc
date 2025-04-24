@@ -122,6 +122,6 @@ It is recommended to delete these files to keep the directory clean.
 ![output files](https://github.com/user-attachments/assets/17d9ee71-dbcd-4023-b4b9-251bf66585f8)
 
 ## Video Tutorial
-Please refer to the tutorial video for more detailed running instructions: LITESOPH Video Playlist
+- Please refer to the tutorial video for more detailed running instructions: [LITESOPH Video Playlist](https://youtube.com/playlist?list=PL4_IG4UezHjDSP1blp4bK1dUvcyXi_0L1&si=j-xj592fIeUyTFi9)
 ---
 
