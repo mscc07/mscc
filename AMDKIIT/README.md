@@ -47,7 +47,7 @@ squeue --me
 ssh <node-name>
 
 ```
-![1](https://github.com/user-attachments/assets/f6fe8bc7-af14-4fba-a63d-814bc52088f2)
+![1](https://github.com/user-attachments/assets/3931a180-7bb7-420b-bbc6-1d5318bb5542)
 
 - After logging into the node, you need to load the AMDKIIT application module by using the following commands
 ```bash
@@ -60,14 +60,14 @@ module load MSCC/amdkiit
 # Command 6: Check the loaded modules
 module list
 ```
-![module list](https://github.com/user-attachments/assets/37181545-902c-46c0-af11-9a6f9078d809)
-
+![2](https://github.com/user-attachments/assets/cbeeb0b7-dda7-4803-a1d3-1fa2518c558a)
 
 - Once the module is loaded, navigate to the directory containing the input files and run the application using the following command:
 ```bash
 mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out                                
 ```
-![running the application](https://github.com/user-attachments/assets/9a37669c-4eb3-4067-a080-f1886e5dddac)
+![5](https://github.com/user-attachments/assets/8c727fe1-2ac2-4855-8f50-ddd025ae9aac)
+
 
 ### B) Non-Interactive Mode
 You can also run the application using a job submission script.
