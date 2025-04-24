@@ -22,8 +22,10 @@ ssh -p 4422 username@hostname
 
 - Download the sample input files  available in https://github.com/mscc07/mscc-testinput.git
 
-##  Step 3: Run the application 
-The application can be run in two modes: **Interactive Mode** and **Non-Interactive Mode**
+## Step 3: Run the Application
+
+The application is designed to run in **Graphical User Interface (GUI) Mode** .  
+Simply launch the application to access its user-friendly graphical interface, where all functionalities can be performed through interactive menus and buttons.
 
 ### A) Interactive Mode
 In this mode, you manually allocate a node and run the application on that node.
