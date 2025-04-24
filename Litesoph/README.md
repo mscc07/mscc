@@ -27,72 +27,16 @@ ssh -p 4422 username@hostname
 The application is designed to run in **Graphical User Interface (GUI) Mode** .  
 Simply launch the application to access its user-friendly graphical interface, where all functionalities can be performed through interactive menus and buttons.
 
-### A) Interactive Mode
-In this mode, you manually allocate a node and run the application on that node.
-- To allocate and log in to the node, execute the following commands in order:
+## Step 3: Run the Application
+
+To run the **LITESOPH** application, load the corresponding module and launch it using the GUI mode.
 
 ```bash
-# Command 1: Allocate a node
-salloc -N 1
-
-# Command 2: Check the assigned node
-squeue --me
-
-# Command 3: SSH into the assigned node
-ssh <node-name>
-
-```
-![salloc](https://github.com/user-attachments/assets/c4982c71-6ed3-4f35-b2d5-37e8aa325cb7)
-
-- After logging into the node, you need to load the ANN-CI application module by using the following commands
-```bash
-# Command 4: List all MSCC applications
-module avail | grep -i mscc
-
-# Command 5: Load the ANN-CI application
-module load MSCC/ann-ci
-
-# Command 6: Check the loaded modules
-module list
-```
-![module list](https://github.com/user-attachments/assets/37181545-902c-46c0-af11-9a6f9078d809)
-
-
-Make sure to **choose the correct version of ann-ci** from the available modules, if multiple versions are listed.
-
-- Running the Application
-Once the module is loaded, run the application using the following command:
-```bash
-exe.py <your_input_file>                      # Replace <your_input_file> with the actual file name
-```
-![running the application](https://github.com/user-attachments/assets/9a37669c-4eb3-4067-a080-f1886e5dddac)
-
-### B) Non-Interactive Mode
-You can also run the application using the job submission script.
-- Create a file named _job.sh_ with the following content:
-This is a script used to submit a job to a computing cluster. It automates the job setup, runs your application, and handles input/output.
-
-```bash
-#!/bin/bash
-#SBATCH --job-name=sys10       # Set the job name
-#SBATCH --nodes=1              # Request one compute node
-#SBATCH --partition=standard   # Specify the partition/queue
-#SBATCH --time=48:00:00        # Set maximum execution time
-#SBATCH --output=%j.out        # File to save standard output
-#SBATCH --error=%j.err         # File to save error messages
-
-module load MSCC/ann-ci        # Load the ANN-CI module (verify module name if needed)
-cd $SLURM_SUBMIT_DIR           # Navigate to the job submission directory
-exe.py <input_file>            # Run the ANN-CI application (replace <input_file> accordingly)
+module load MSCC/litesoph     # Load the LITESOPH module
+litesoph gui                  # Launch the GUI mode
 ```
 
-- To run the application, submit the above job submission script using the below command 
-Once your _job.sh_ file is ready, run the script using the command below:
-
-```bash
-sbatch job.sh             # Submit the batch job
-```
-![sbatch job sh](https://github.com/user-attachments/assets/6e1a50e3-64d6-4816-b042-fb2a06b195c4)
+![LITESOPH module load and run](attachment:/mnt/data/Screenshot%202025-04-24%20173328.png)
 
 ## Step 4: Output Files
 
