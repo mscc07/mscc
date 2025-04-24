@@ -18,7 +18,7 @@ ssh -p 4422 username@hostname
 > ⚠️ **Important:** Do not run any MSCC application on login nodes!
 
 
-##  Step 2: Prepare input and bond Order files
+##  Step 2: Download the sample input files
 
 - Download the sample input files  available in https://github.com/mscc07/mscc-testinput.git
 
