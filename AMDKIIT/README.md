@@ -91,7 +91,8 @@ mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out            # Run the AMDKI
 ```bash
 sbatch job.sh   # Submit the batch job to the scheduler
 ```
-![sbatch job sh](https://github.com/user-attachments/assets/6e1a50e3-64d6-4816-b042-fb2a06b195c4)
+![7](https://github.com/user-attachments/assets/23537964-c4dd-4cff-b2a6-359022f1d503)
+
 
 ## Step 4: Output Files
 After successful execution, output files are generated. The general out file **amdkiit.out** contains all the information of the job being performed. Apart from that, different 
@@ -117,8 +118,7 @@ MD_ENERGY.dat     # Logs instantaneous temperature (K), KS energy (Hartree), tot
 MD_TRAJECTORY.xyz # Records the system geometry (in Å) at each MD step in XYZ format (append mode).  
 ```
 ## Screentshot of the output files for wavefunction optimization
-![output files](https://github.com/user-attachments/assets/17d9ee71-dbcd-4023-b4b9-251bf66585f8)
-
+![7](https://github.com/user-attachments/assets/2c8e745f-5870-46a3-9f2a-04cb3c47b7c6)
 ## Video Tutotial
 - Please refer to the tutorial video for more detailed running instructions: https://www.youtube.com/watch?v=x69wl20Hq5M&t=2273s 
 ---
