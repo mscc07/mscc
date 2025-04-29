@@ -22,7 +22,7 @@ ssh -p 4422 username@hostname
 
 ##  Step 2: Download the sample input files
 
-- Download the sample input files  available in https://github.com/mscc07/mscc-testinput.git
+- Download the sample input files  available in https://github.com/mscc07/mscc-testinput/tree/main/Litesoph_Inputs
 
 ## Step 3: Run the Application
 
@@ -34,6 +34,7 @@ To run the **LITESOPH** application, load the corresponding module and launch it
 
 ```bash
 module load MSCC/litesoph     # Load the LITESOPH module
+
 litesoph gui                  # Launch the GUI mode
 ```
 
@@ -43,28 +44,8 @@ Gui appears
 
 ![Image](https://github.com/user-attachments/assets/144b941a-9637-43c7-b0e0-e5973becf244)
 
+Follow these steps to run litesoph  [Litesoph_how to run.pdf](https://github.com/user-attachments/files/19955967/Litesoph_how.to.run.pdf)
 
-
-##  Job Submission Script
-
-This script is an example of a SLURM batch script for submitting a job to run on a computing cluster.
-
-### Script Details
-
-```bash
-#!/bin/bash
-
-#SBATCH -N 1                  # Specify number of nodes
-#SBATCH --ntasks-per-node=10  # Specify number of CPU cores per node
-#SBATCH --time=00:10:00       # Maximum execution time (hh:mm:ss)
-#SBATCH --job-name=nwchem     # Job name
-#SBATCH --error=job.%J.err    # Error file name (%J is replaced with the job ID)
-#SBATCH --output=job.%J.out   # Output file name (%J is replaced with the job ID)
-#SBATCH --partition=standard  # Resource partition to use
-
-```
-
-![Image](https://github.com/user-attachments/assets/a441e685-e1e5-4e7f-9593-022bb12c4c65)
 
 
 
