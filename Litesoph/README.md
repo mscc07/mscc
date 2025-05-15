@@ -33,9 +33,16 @@ Simply launch the application to access its user-friendly graphical interface, w
 To run the **LITESOPH** application, load the corresponding module and launch it using the GUI mode.
 
 ```bash
-module load MSCC/litesoph     # Load the LITESOPH module
 
-litesoph gui                  # Launch the GUI mode
+# Command 1: List all MSCC applications
+module avail | grep -i mscc
+
+# Command 2: Load the LITESOPH module
+module load MSCC/litesoph     
+
+# Command 3: Launch the GUI mode
+litesoph gui
+
 ```
 
 ![Image](https://github.com/user-attachments/assets/61048e65-ea16-4606-968b-2014d33d0fd1)
@@ -44,7 +51,7 @@ Gui appears
 
 ![Image](https://github.com/user-attachments/assets/144b941a-9637-43c7-b0e0-e5973becf244)
 
-Follow these steps to run litesoph  [Litesoph_how to run.pdf](https://github.com/user-attachments/files/19955967/Litesoph_how.to.run.pdf)
+ ⚠️ To perform calculations  [Litesoph_how to run.pdf](https://github.com/user-attachments/files/19955967/Litesoph_how.to.run.pdf)
 
 
 
