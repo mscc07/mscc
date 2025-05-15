@@ -62,9 +62,13 @@ module list
 ```
 ![2](https://github.com/user-attachments/assets/cbeeb0b7-dda7-4803-a1d3-1fa2518c558a)
 
-- Once the module is loaded, navigate to the directory containing the input files and run the application using the following command:
+- Once the module is loaded, navigate to the directory containing the input files:
+  
+![image](https://github.com/user-attachments/assets/9f5660dd-7ff5-40f6-9d4a-ae6f5d5f7c80)
+
+- Run the application using the following command:
 ```bash
-mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out                                
+mpirun -n 2 amdkiit.x input.yaml > amdkiit.out                                
 ```
 ![5](https://github.com/user-attachments/assets/8c727fe1-2ac2-4855-8f50-ddd025ae9aac)
 
@@ -83,10 +87,10 @@ You can also run the application using a job submission script.
 #SBATCH --error=%j.err         # File to save error messages
 
 module load MSCC/amdkiit                                         # Load the AMDKIIT module (verify module name if needed)
-mpirun -n <N_core> amdkiit.x input.yaml > amdkiit.out            # Run the AMDKIIT application 
+mpirun -n 2 amdkiit.x input.yaml > amdkiit.out            # Run the AMDKIIT application 
 ```
 
-- To run the application, submit the job script using the following command:
+- To execute the application, use the submit_p.sh script to submit the job via the SLURM job scheduler.
 
 ```bash
 sbatch submit_p.sh   # Submit the batch job to the scheduler
