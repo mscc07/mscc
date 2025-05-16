@@ -52,9 +52,10 @@ module load MSCC/mu2mech
 mu2mech
 ```
 - GUI appears
+
 ![image](https://github.com/user-attachments/assets/3c8ac5d9-1d54-436c-b552-34a196a6959c)
 
-- ⚠️ To perform calculations refer mu2mech-how-use.pdf
+- ⚠️ To perform calculations refer 
 
 ## Video Tutorial
 - Please refer to the tutorial video for more detailed running instructions: 
