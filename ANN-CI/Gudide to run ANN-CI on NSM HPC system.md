@@ -1,4 +1,3 @@
-
 # Guide to Run/Execute ANN-CI Software on NSM HPC Systems
 
 ---
@@ -9,21 +8,30 @@
 
 
 ```
-#Command to log in into NSM HPC system via linux or windows OS
+# Command to log in into NSM HPC system via linux or windows OS
 ssh -p 4422 username@hostname
 ```
 ![ssh](https://github.com/user-attachments/assets/fadebec6-8d52-4a81-b03e-a40bfaa96378)
 
 > ⚠️ **Important:** Do not run any MSCC application on login nodes!
 
+## Step 2: Create a directory and prepare input files
 
-##  Step 2: Prepare input and bond Order files
+Create a working directory and navigate into it, this directory will contain the input files.
 
-- Download the sample input files (Eg. 10site_pah_S.in & bondOrder-pah10.dat) available in https://github.com/rahul-dethe/running_instructions/tree/master/ann_wk2/inputs
+```bash
+# Command 1: Create a directory
+mkdir annci_test001
+
+# Command 2: Navigate into the directory
+cd annci_test001
+```
+
+- Download the sample input files available in [Sample input files](https://github.com/rahul-dethe/running_instructions/tree/master/ann_wk2/inputs)
 
 OR
 
-- Prepare input and bond order files by referring to the detailed instructions in the GitHub repository  https://github.com/dghoshlab/AL-MCCI
+- Prepare input and bond order files by referring to the detailed instructions in the GitHub repository  [AL-MCCI](https://github.com/dghoshlab/AL-MCCI)
 
 
 ##  Step 3: Run the application 
@@ -46,7 +54,7 @@ ssh <node-name>
 ```
 ![salloc](https://github.com/user-attachments/assets/c4982c71-6ed3-4f35-b2d5-37e8aa325cb7)
 
-- After logging into the node, you need to load the ANN-CI application module by using the following commands
+- After logging into the node, navigate to the directory that contains the input and bond order files and load the ANN-CI application module using the following commands
 ```bash
 # Command 4: List all MSCC applications
 module avail | grep -i mscc
@@ -65,13 +73,17 @@ Make sure to **choose the correct version of ann-ci** from the available modules
 - Running the Application
 Once the module is loaded, run the application using the following command:
 ```bash
-exe.py <your_input_file>                      # Replace <your_input_file> with the actual file name
+exe.py **<your_input_file>**                      # Replace <your_input_file> with the actual file name
 ```
 ![running the application](https://github.com/user-attachments/assets/9a37669c-4eb3-4067-a080-f1886e5dddac)
 
 ### B) Non-Interactive Mode
+
 You can also run the application using the job submission script.
-- Create a file named _job.sh_ with the following content:
+
+- Create a directory and create the input and bond Order files and navigate into it (if already have, navigate into it)
+  
+- Create a file _job.sh_ with the following content:
 This is a script used to submit a job to a computing cluster. It automates the job setup, runs your application, and handles input/output.
 
 ```bash
@@ -120,6 +132,6 @@ It is recommended to delete these files to keep the directory clean.
 ## Screentshot of the output files
 ![output files](https://github.com/user-attachments/assets/17d9ee71-dbcd-4023-b4b9-251bf66585f8)
 
-## Video Tutotial
+## Video Tutorial
 - Please refer to the tutorial video for more detailed running instructions: https://youtu.be/R2KRXly2RBo?si=Wd9UUfS0lKd2Ayfy
 ---
