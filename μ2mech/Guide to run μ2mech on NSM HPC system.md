@@ -51,6 +51,8 @@ module load MSCC/mu2mech
 # Command 3: Launch the GUI mode
 mu2mech
 ```
+![image](https://github.com/user-attachments/assets/f5a3ea40-6bb3-4bf6-9d88-4ca9017720f4)
+
 - GUI appears
 
 ![image](https://github.com/user-attachments/assets/3c8ac5d9-1d54-436c-b552-34a196a6959c)
