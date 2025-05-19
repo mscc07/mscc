@@ -26,7 +26,7 @@ mkdir mu2mech_test001
 # Command 2: Navigate into the directory
 cd mu2mech_test001
 ```
-
+![mu2mech_cd+command](https://github.com/user-attachments/assets/588dcafa-a365-4717-adff-feaa82c22d89)
 
 ##  Step 3: Run the application 
 The application is designed to run in **Graphical User Interface (GUI) Mode.**
