@@ -58,6 +58,5 @@ mu2mech
 - ⚠️ To perform calculations refer [µ2mech(pdf)](https://github.com/mscc07/mscc/blob/main/%CE%BC2mech/Mu2Mech.pdf) 
 
 ## Video Tutorial
-- Please refer to the tutorial video for more detailed running instructions:
-  https://www.youtube.com/watch?v=U91WctyAsoQ&list=PL4_IG4UezHjAtOyxQHI9Mxl-4r3LaAJW4&index=4
+- Please refer to the tutorial video for more detailed running instructions: https://youtu.be/U91WctyAsoQ?si=hDoVVqZ5YQL44svG
 ---
