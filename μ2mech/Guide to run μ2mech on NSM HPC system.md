@@ -55,7 +55,7 @@ mu2mech
 
 ![image](https://github.com/user-attachments/assets/3c8ac5d9-1d54-436c-b552-34a196a6959c)
 
-- ⚠️ To perform calculations refer 
+- ⚠️ To perform calculations refer [µ2mech(pdf)](https://github.com/mscc07/mscc/blob/main/%CE%BC2mech/Mu2Mech.pdf) 
 
 ## Video Tutorial
 - Please refer to the tutorial video for more detailed running instructions: 
