@@ -21,10 +21,10 @@ Create a working directory and navigate into it, this directory will contain the
 
 ```bash
 # Command 1: Create a directory
-mkdir annci_test001
+mkdir mu2mech_test001
 
 # Command 2: Navigate into the directory
-cd annci_test001
+cd mu2mech_test001
 ```
 
 
