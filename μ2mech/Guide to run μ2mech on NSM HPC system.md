@@ -11,7 +11,7 @@
 # Command to log in into NSM HPC system via linux or windows OS
 ssh -p 4422 username@hostname
 ```
-![ssh](https://github.com/user-attachments/assets/fadebec6-8d52-4a81-b03e-a40bfaa96378)
+![updated_ssh](https://github.com/user-attachments/assets/38ecb155-8aba-4492-b643-5c78b97136c1)
 
 > ⚠️ **Important:** Do not run any MSCC application on login nodes!
 
