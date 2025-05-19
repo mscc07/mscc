@@ -26,6 +26,8 @@ mkdir annci_test001
 # Command 2: Navigate into the directory
 cd annci_test001
 ```
+![cd_command_word](https://github.com/user-attachments/assets/039b738e-7375-4aaa-9a27-636f00bf99d3)
+
 
 - Download the sample input files available in [Sample input files](https://github.com/rahul-dethe/running_instructions/tree/master/ann_wk2/inputs)
 
